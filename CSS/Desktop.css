@@ -347,7 +347,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: black;
-    border: 2px solir black;
     display: flex;
     justify-content: flex-start;
 }
