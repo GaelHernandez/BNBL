@@ -1,5 +1,342 @@
-.test {
-    width: 500px;
-    height: 500px;
-    background-color: rosybrown;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+:root {
+    /* 
+    Aqui iran variables
+    --ejemplo: red; 
+    */
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    user-select: none;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    background: linear-gradient(#2C2F36, #0B0E11);
+}
+
+/* SECCION CERO */
+.Seccion_0 {
+    background-image: url(../Img/hero.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    width: 100vw;
+    height: 5.7vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0), rgba(20, 20, 20, 0.8));
+    padding: 0 6vw;
+}
+
+.header_logo {
+    width: 25%;
+    height: 100%;
+    margin-right: 25%;
+    display: flex;
+    align-items: center;
+    z-index: 9;
+    opacity: 0;
+}
+
+.header_logo img {
+    width: 100%;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.header-item {
+    z-index: 9;
+    text-decoration: none;
+    width: 33%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-item:hover {
+    background-color: #F4CF36;
+    color: black;
+}
+
+/* SECCION CERO */
+
+/* SECCION UNO */
+.Seccion_1 {
+    padding: 6vw 6vw;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 5rem;
+}
+
+.about {
+    width: inherit;
+    height: 32vw;
+    display: flex;
+    background-color: #F4CF36;
+    position: relative;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about_content {
+    width: 50%;
+    padding: 2.5rem 5rem;
+}
+
+.about_title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+    color: black;
+}
+
+.about_txt {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+/* SECCION UNO */
+
+/* SECCION DOS */
+.Seccion_2 {
+    margin-top: 60px;
+    padding: 0 6vw;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 5rem;
+}
+
+.about2 {
+    width: inherit;
+    height: 32vw;
+    display: flex;
+    background-color: #F4CF36;
+    position: relative;
+}
+
+.about-img2 {
+    width: 50%;
+}
+
+.about_content2 {
+    width: 50%;
+    padding: 2.5rem 5rem;
+}
+
+.about_title2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.about_title2 span {
+    font-weight: 600;
+    color: black;
+}
+
+.about_txt2 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1 a {
+    font-family: 'Montserrat', sans-serif;
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0B0E11;
+    color: #F4CF36;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.btn-1 a:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+/* SECCION DOS */
+
+/* SECCION TRES */
+.Seccion_3 {
+    margin-top: 60px;
+    padding: 0 6vw;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 5rem;
+}
+
+.about3 {
+    width: inherit;
+    height: 32vw;
+    display: flex;
+    background-color: #F4CF36;
+    position: relative;
+}
+
+.about-img3 {
+    width: 50%;
+}
+
+.about_content3 {
+    width: 50%;
+    padding: 2.5rem 5rem;
+}
+
+.about_title3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.about_title3 span {
+    font-weight: 600;
+    color: black;
+}
+
+.about_txt3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-2 a {
+    font-family: 'Montserrat', sans-serif;
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0B0E11;
+    color: #F4CF36;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.btn-2 a:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+/* SECCION TRES */
+
+/* SECCION CUATRO */
+
+.Seccion_4 {
+    margin-top: 60px;
+    padding: 0 3vw;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 5rem;
+}
+
+.card {
+    width: 100%;
+    height: fit-content;
+    padding: 3rem 0;
+    background-color: #F4CF36;
+}
+
+.red-title {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cube {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cube_card {
+    width: 50%;
+    height: 100%;
+}
+
+.anchor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.anchor img {
+    margin-right: 2rem;
+}
+
+.anchor p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    border: 2px solir black;
+    display: flex;
+    justify-content: flex-start;
+}
+/* SECCION CUATRO */
